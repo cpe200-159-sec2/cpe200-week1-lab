@@ -10,7 +10,15 @@ public class Lab1_5 {
         /**
          * Your code here
          */
-        return 0;
+        int SumSq=0, SqSum=0;
+        for (int n=1 ; n<=i; n++) {
+            SumSq += n * n;
+        }
+        for (int m=1 ; m <=i ; m++) {
+            SqSum += m;
+        }
+
+        return (SqSum*SqSum)-SumSq;
     }
 
     public static void main(String[] args) {
