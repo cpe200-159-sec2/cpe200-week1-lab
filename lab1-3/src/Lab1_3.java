@@ -11,8 +11,9 @@ public class Lab1_3 {
 
         for (int i=0; i<inputs.length; i++)
         {
-            if (inputs[i] > inputs[0])
+            if (inputs[i] > inputs[0]) {
                 inputs[0] = inputs[i];
+            }
         }
 
         return inputs[0];

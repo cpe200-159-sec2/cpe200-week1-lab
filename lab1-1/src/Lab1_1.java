@@ -15,7 +15,7 @@ public class Lab1_1 {
         else
             return input_b;
         /*
-            or use return (input_a > input_b (?); input_a: input_b)
+            or use return (input_a > input_b ? input_a: input_b);
          */
     }
 
