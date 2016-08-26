@@ -10,7 +10,21 @@ public class Lab1_5 {
         /**
          * Your code here
          */
-        return 0;
+        int sum=0,sumofSquares=0,squareofSum=0;
+
+        for(int j=1;j<=i;j++){
+            sumofSquares += j*j;
+            sum += j;
+        }
+
+        squareofSum = sum*sum;
+
+        if(squareofSum-sumofSquares>0){
+            return squareofSum-sumofSquares;
+        }
+        else{
+            return sumofSquares-squareofSum;
+        }
     }
 
     public static void main(String[] args) {

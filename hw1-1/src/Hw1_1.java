@@ -7,7 +7,16 @@ public class Hw1_1 {
         /**
          * Your code here
          */
-        return 0;
+        int counter=0;
+
+        for(int i=0; i<inputs.length;i++)
+        {
+            if(inputs[i]%2==0)
+            {
+                counter++;
+            }
+        }
+        return counter;
     }
 
 
