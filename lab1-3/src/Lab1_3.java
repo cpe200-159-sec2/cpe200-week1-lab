@@ -5,9 +5,7 @@ public class Lab1_3 {
 
     public int findMax(int[] inputs)
     {
-        /*
-          Implement your code here
-        */
+        
         return inputs[0];
     }
 
