@@ -5,10 +5,10 @@ public class Lab1_1 {
 
     public int chooseMax(int input_a, int input_b)
     {
-        /*
-          Implement your code here
-        */
-        return input_a;
+        int max = 0;
+        if(input_a > input_b) max = input_a;
+        else max = input_b;
+        return max;
     }
 
     public static void main(String[] args) {
