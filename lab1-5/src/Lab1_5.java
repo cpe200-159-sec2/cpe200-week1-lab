@@ -7,10 +7,13 @@ public class Lab1_5 {
 
     public int sumSquareDifference(int i)
     {
-        /**
-         * Your code here
-         */
-        return 0;
+        int sum=0,sum1=0,sum2=0;
+        for(int k=0; k<=i; k++){
+            sum += k*k;
+            sum1 += k;
+        }
+        sum2=sum1*sum1;
+        return sum2-sum;
     }
 
     public static void main(String[] args) {
@@ -18,4 +21,3 @@ public class Lab1_5 {
         System.out.printf("Result is %d\n", l.sumSquareDifference(10));
     }
 }
-
