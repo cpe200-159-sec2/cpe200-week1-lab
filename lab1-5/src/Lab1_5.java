@@ -7,10 +7,8 @@ public class Lab1_5 {
 
     public int sumSquareDifference(int i)
     {
-        /**
-         * Your code here
-         */
-        return 0;
+        //http://codereview.stackexchange.com/questions/58460/sum-of-squares-square-of-sum-difference
+        return (i-1)*i*(i+1)*(3*i+2)/12;
     }
 
     public static void main(String[] args) {
