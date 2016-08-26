@@ -3,8 +3,7 @@
  */
 public class Lab1_1 {
 
-    public int chooseMax(int input_a, int input_b)
-    {
+    public int chooseMax(int input_a, int input_b) {
             if(input_a<input_b){
                 return input_b;
             }
