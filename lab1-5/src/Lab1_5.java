@@ -6,11 +6,14 @@
 public class Lab1_5 {
 
     public int sumSquareDifference(int i)
-    {
-        /**
-         * Your code here
-         */
-        return 0;
+    {   int sumsquare=0,squaresum=0,difference=0;
+        for(int n=1;n<=i;n++){
+            sumsquare+=Math.pow(n,2);
+            squaresum+=n;
+        }
+        Math.pow(squaresum,2);
+        difference=squaresum-sumsquare;
+        return difference;
     }
 
     public static void main(String[] args) {
