@@ -5,10 +5,14 @@ public class Lab1_4 {
 
     public float findAverage(int[] inputs)
     {
-        /*
-          Implement your code here
-        */
-        return 0.0f;
+        int i=0,sum=0;
+        float av=0;
+        while (inputs[i]!= 0){
+            sum+=inputs[i];
+            i++;
+        }
+        av = sum/i;
+        return av;
     }
 
     public static void main(String[] args) {

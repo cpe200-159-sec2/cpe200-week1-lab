@@ -4,10 +4,13 @@
 public class Lab1_3 {
 
     public int findMax(int[] inputs)
-    {
-        /*
-          Implement your code here
-        */
+    {   int i=0;
+        while (inputs[i]!=0){
+            if(inputs[i]>inputs[i+1]){
+                inputs[0]=inputs[i];
+                i++;
+            }
+        }
         return inputs[0];
     }
 
