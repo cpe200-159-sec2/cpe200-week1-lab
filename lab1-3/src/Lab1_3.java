@@ -6,7 +6,7 @@ public class Lab1_3 {
     public int findMax(int[] inputs)
     {
         int Max = 0;
-        for(int i=0; i< inputs.length ;i++){
+        for(int i=0; i < inputs.length ; i++){
             if(inputs[i] > Max){
                 Max=inputs[i];
             }
