@@ -5,9 +5,11 @@ public class Lab1_3 {
 
     public int findMax(int[] inputs)
     {
-        for(int i=0;i<=inputs;i++)
+        for(int i=0;i<inputs.length;i++)
         {
-            if()
+            if(inputs[0] < inputs[i]){
+              inputs[0] = inputs[i];
+            }
         }
         return inputs[0];
     }
