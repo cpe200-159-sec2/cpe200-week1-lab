@@ -7,7 +7,6 @@ public class Hw1_2 {
     float gpaCalculation(int[] credit, int[] grade)
     {
         float sum=0, result=0;
-
         for (int i=0; i<credit.length; i++){
                 result += credit[i] * grade[i];
                 sum += credit[i];
