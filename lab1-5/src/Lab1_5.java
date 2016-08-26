@@ -7,10 +7,12 @@ public class Lab1_5 {
 
     public int sumSquareDifference(int i)
     {
-        /**
-         * Your code here
-         */
-        return 0;
+        int sum1=0,sum2=0;
+        for(int num=1;num<=i;num++){
+            sum1+= num*num;
+            sum2+= num;
+        }
+        return (sum2*sum2)-sum1;
     }
 
     public static void main(String[] args) {
