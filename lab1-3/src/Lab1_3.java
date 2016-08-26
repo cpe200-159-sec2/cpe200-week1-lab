@@ -8,6 +8,7 @@ public class Lab1_3 {
         /*
           Implement your code here
         */
+        for(int i=0;i)
         return inputs[0];
     }
 

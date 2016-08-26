@@ -8,7 +8,8 @@ public class Lab1_2 {
         /*
           Implement your code here
         */
-        return true;
+        if(input_a == input_b) return true;
+            return false;
     }
 
     public static void main(String[] args) {
