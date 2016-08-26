@@ -5,12 +5,15 @@
  */
 public class Lab1_5 {
 
-    public int sumSquareDifference(int i)
-    {
-        /**
-         * Your code here
-         */
-        return 0;
+    public int sumSquareDifference(int i) {
+        int powplus=0 , plustopow=0 ;
+        for(int j=1 ;j<=i ; j++){
+            powplus += (j*j) ;
+            plustopow += j ;
+        }
+        plustopow = plustopow*plustopow ;
+
+        return plustopow-powplus ;
     }
 
     public static void main(String[] args) {
