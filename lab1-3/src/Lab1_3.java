@@ -4,14 +4,13 @@
 public class Lab1_3 {
 
     public int findMax(int[] inputs)
-    {   int i=0;
-        while (inputs[i]!=0){
-            if(inputs[i]>inputs[i+1]){
-                inputs[0]=inputs[i];
-                i++;
+    {   int max=0;
+        for(int i=0;i<inputs.length;i++){
+            if(inputs[max]<inputs[i]){
+                max=i;
             }
         }
-        return inputs[0];
+        return inputs[max];
     }
 
     public static void main(String[] args) {
