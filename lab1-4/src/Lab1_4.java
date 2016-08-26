@@ -8,7 +8,12 @@ public class Lab1_4 {
         /*
           Implement your code here
         */
-        return 0.0f;
+        float average =0;
+        for(int i =0;i<inputs.length;i++){
+            average += inputs[i];
+        }
+        average /= inputs.length;
+        return average;
     }
 
     public static void main(String[] args) {
