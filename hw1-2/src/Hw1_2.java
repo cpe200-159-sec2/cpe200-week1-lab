@@ -7,7 +7,14 @@ public class Hw1_2 {
         /**
          * your code here
          */
-        return 0.0f;
+        float sumgrade =0, sumcredit=0 ;
+
+        for(int i =0;i<grade.length;i++){
+            sumgrade+=grade[i];
+            sumcredit+=credit[i];
+        }
+        float GPA = (sumgrade / sumcredit);
+        return GPA;
     }
 
     public static void main(String[] args) {
