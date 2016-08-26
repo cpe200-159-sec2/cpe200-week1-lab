@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * Implement chooseMax method which receives two integers and return the maximum number among them.
  */
@@ -5,9 +7,9 @@ public class Lab1_1 {
 
     public int chooseMax(int input_a, int input_b)
     {
-        /*
-          Implement your code here
-        */
+        if(input_a < input_b){
+            return input_b;
+        }
         return input_a;
     }
 
