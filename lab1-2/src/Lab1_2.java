@@ -8,7 +8,10 @@ public class Lab1_2 {
         /*
           Implement your code here
         */
-        return true;
+        if( input_a != input_b){
+            return false;
+        }
+        else {return true;}
     }
 
     public static void main(String[] args) {

@@ -8,7 +8,13 @@ public class Lab1_3 {
         /*
           Implement your code here
         */
-        return inputs[0];
+        int max = 0 ;
+        for (int i =0;i<inputs.length;i++){
+            if(inputs[i] > inputs[max] ) {
+                max = i ;
+            }
+        }
+        return inputs[max];
     }
 
     public static void main(String[] args) {

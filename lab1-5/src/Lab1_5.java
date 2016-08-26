@@ -1,3 +1,5 @@
+import javax.swing.plaf.metal.MetalTheme;
+
 /**
  * base on this problem https://projecteuler.net/problem=6 . Implement the subSquareDifference(i) where is a natural
  * number, and the output of the function will be the difference between the sum of the square of first i natural number
@@ -10,7 +12,19 @@ public class Lab1_5 {
         /**
          * Your code here
          */
-        return 0;
+        int sum = 0,square =0 ;
+        for (int j =1 ;j<=i ; j++){
+            sum+=j;
+            square +=(j*j);
+        }
+
+        sum*=sum;
+
+        return (sum - square);
+
+
+
+
     }
 
     public static void main(String[] args) {
