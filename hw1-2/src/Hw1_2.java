@@ -4,10 +4,12 @@
 public class Hw1_2 {
     float gpaCalculation(int[] credit, int[] grade)
     {
-        /**
-         * your code here
-         */
-        return 0.0f;
+      float sumcredit=0, sumgrade=0;
+        for (int j =0;j<credit.length;j++) {
+            sumcredit += credit[j];
+            sumgrade += credit[j] * grade[j];
+        }
+        return sumgrade/sumcredit;
     }
 
     public static void main(String[] args) {
