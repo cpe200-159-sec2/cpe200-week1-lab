@@ -4,10 +4,15 @@
 public class Hw1_2 {
     float gpaCalculation(int[] credit, int[] grade)
     {
-        /**
-         * your code here
-         */
-        return 0.0f;
+        float countC=0,countG=0,GPA=0;
+        for(int i=0;i<credit.length;i++){
+            if(credit[i] !=0){
+                countC+=credit[i];
+                countG+=(grade[i]*credit[i]);
+            }
+        }
+
+        return countG/countC;
     }
 
     public static void main(String[] args) {
